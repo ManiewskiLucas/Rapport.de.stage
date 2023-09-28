@@ -14,12 +14,15 @@
 
     <!--style, favicon-->
     <link rel="icon" href="">
-    <link rel="stylesheet" href="assets\css\style.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/styletablette.css">
+    
 
     <!--google font-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Mooli&display=swap" rel="stylesheet">
+    
 
     <!--opengraph pour visualiser titre, description, image etc..-->
     <meta property="og:title" content="">    
@@ -45,7 +48,7 @@
                 <a href="#tâches"><p>Les tâches réalisées</p></a>
             </div>
             <div>
-                <p>Conclusion</p>
+                <a href="#conclusion"><p>Conclusion</p></a>
             </div>
             <div>
                 <p>Remerciements</p>
@@ -59,15 +62,15 @@
             <h2>Rapport de stage</h2>
         </div>
     </header>
-    <main>
+    <main> <!--partie de page de présentation du stage-->
         <article class="présentation">
             <p>Avec l'entreprise freelance "Alizaryana", située au Creusot, pour le stage en développement web du lundi 11 septembre au vendredi 22 septembre.</p>
             <img class="renard" src="assets/images/renard.PNG" alt="renard présent sur le site de Alizaryana">
-            <img class="carte" src="assets/images/Carte de visite.jpg" alt="Carte de visite de Alizaryana indiquant son mail, son numéro de téléphone et un qr code de son site">
+            <img class="carte" src="assets/images/carte.jpg" alt="Carte de visite de Alizaryana indiquant son mail, son numéro de téléphone et un qr code de son site">
         </article>
 
         <a href="#nav"><h3 id="introduction">Introduction</h3></a>
-
+        <!--introduction du rapport-->
         <div class="introduction">
             <div class="ligne">
                 <article class="P1">
@@ -86,7 +89,7 @@
                 </article>
             </div>
         </div>
-        
+        <!--présentation de l'entreprise-->
         <a href="#nav"><h3 id="présentation">Présentation de l’entreprise</h3></a>
         <div class="ligne">
             <article class="P1">
@@ -101,28 +104,31 @@
                 <p>Grâce à son diplôme en intégration et développement web et à son professionnalisme, elle propose ses services pour la création et la production de sites internet, ainsi que pour l'optimisation de la performance, du référencement et de l'accessibilité des sites internet.</p>
             </article>
         </div>
-
+        <!--tâches réalisées-->
         <a href="#nav"><h3 id="tâches">Les tâches réalisées</h3></a>
-        <h4>Première semaine</h4>
-        <div class="LTR">
+
+        <div class="h4">
+            <h4>Premier semaine</h4>
+        </div>
+        <div class="LTR1">
             <div>
                 <article>
-                        <details class="det1">
+                        <details class="det1"><!--Lundi-->
                             <summary><i class="fa-solid fa-arrow-right"></i>Lundi matin</summary>
                             <hr>
                             <p>Veille sur les bonnes pratiques pour le langage HTML5</p>
                             <hr>
-                                    <li>Minimiser l’utilisation de balises obsolètes</li>
-                                    <li>Utiliser une structure sémantique</li>
-                                    <li>Attribut méta descriptifs</li>
-                                    <li>Valider le code pour minimiser les erreurs de balisage</li>
-                                    <li>Utiliser des attributs pour les images pour maximiser l’accessibilité et le référencement</li>
-                                    <li>Externaliser les styles et les scripts (css et javascript en dehors de la page html)</li>
-                                    <li>Commenter son code pour s’y retrouver plus facilement</li>
-                                    <li>Optimiser les images (réduire le poids et la taille)</li>
-                                    <li>Utiliser les labels (étiquettes pour l’accessibilité et le référencement)</li>
-                                    <li>Penser à l’accessibilité</li>
-                                    <li>Penser au responsive (téléphone, tablette)</li>
+                                <li>Minimiser l’utilisation de balises obsolètes</li>
+                                <li>Utiliser une structure sémantique</li>
+                                <li>Attribut méta descriptifs</li>
+                                <li>Valider le code pour minimiser les erreurs de balisage</li>
+                                <li>Utiliser des attributs pour les images pour maximiser l’accessibilité et le référencement</li>
+                                <li>Externaliser les styles et les scripts (css et javascript en dehors de la page html)</li>
+                                <li>Commenter son code pour s’y retrouver plus facilement</li>
+                                <li>Optimiser les images (réduire le poids et la taille)</li>
+                                <li>Utiliser les labels (étiquettes pour l’accessibilité et le référencement)</li>
+                                <li>Penser à l’accessibilité</li>
+                                <li>Penser au responsive (téléphone, tablette)</li>
                         </details>
                 </article>
             </div>
@@ -134,38 +140,36 @@
                             <hr>
                             <p>Début de création du CV avec du code HTML</p>
                             <p>Les balises utilisées sont :</p>
-                            <p>(Placez la souris sur une balise pour voir son utilité)</p>
                             <hr>
-                                <li><span title="Sert à indiquer au navigateur le type de document">&lt;!DOCTYPE html&gt;</span></li>
-                                <li><span title="Utilisé pour spécifier la langue du contenu de la page Web">&lt;html lang="fr"&gt;</span></li>
-                                <li><span title="Utilisée pour spécifier des informations sur la page Web, telles que son titre, son encodage et ses feuilles de style etc… Le contenu n’est pas visible sur le navigateur.">&lt;head&gt;</span></li>
-                                <li><span title="Sert à relier la feuille de style css au document html">&lt;link rel="stylesheet" href="assets/css/style.css"&gt;</span></li>
-                                <li><span title="Contient tout le contenu visible d’une page web">&lt;body&gt;</span></li>
-                                <li><span title="Utilisé pour définir l'en-tête d'une page web ou d'une section d'une page web">&lt;header&gt;</span></li>
-                                <li><span title="Utilisé pour définir la section principale du contenu d'une page Web">&lt;main&gt;</span></li>
-                                <li><span title="Utilisé pour définir le pied de page d'une page web ou d'une section d'une page web">&lt;footer&gt;</span></li>
+                                <li>&lt;!DOCTYPE html&gt; : Sert à indiquer au navigateur le type de document.</li>
+                                <li>&lt;html lang="fr"&gt; : Utilisé pour spécifier la langue du contenu de la page Web.</li>
+                                <li>&lt;head&gt; : Utilisée pour spécifier des informations sur la page Web, telles que son titre, son encodage et ses feuilles de style etc… Le contenu n’est pas visible sur le navigateur.</li>
+                                <li>&lt;link rel="stylesheet" href="assets/css/style.css"&gt; : Sert à relier la feuille de style css au document HTML</li>
+                                <li>&lt;body&gt; : Contient tout le contenu visible d’une page web.</li>
+                                <li>&lt;header&gt; : Utilisé pour définir l'en-tête d'une page web ou d'une section d'une page web.</li>
+                                <li>&lt;main&gt; : Utilisé pour définir la section principale du contenu d'une page Web.</li>
+                                <li>&lt;footer&gt; : Utilisé pour définir le pied de page d'une page web ou d'une section d'une page web</li>
                             <hr>
                             <p>Début d'un jeu pour apprendre à utiliser Flexbox en CSS</p>
-                            <p>Les balises utilisées sont :</p>
+                            <p>Les éléments utilisés sont :</p>
                             <hr>
-                                <li><span title="Permet d’activer Flexbox">display: flex;</span></li>
-                                <li><span title="flex-start: Les éléments s’alignent au côté gauche du conteneur / flex-end: Les éléments s’alignent au côté droit du conteneur / Center: Les éléments s’alignent au centre du conteneur / Space-between: Les éléments s’affichent avec un espace égal entre eux / Space-around: Les éléments s'affichent avec un espacement égal à l'entour d'eux">justify-content</span></li>
-                                <li><span title="flex-start: Les éléments s'alignent au haut du conteneur / flex-end: Les éléments s'alignent au bas du conteneur / center: Les éléments s'alignent au centre vertical du conteneur / baseline: Les éléments s'alignent à la ligne de base du conteneur / stretch: Les éléments sont étirés pour s'adapter au conteneur">align-items</span></li>
-                                <li><span title="La même chose que pour align-items sauf que ça agit sur un seul élément">align-self</span></li>
-                                <li><span title="row: Les éléments sont disposés dans la même direction que le texte / row-reverse: Les éléments sont disposés dans la direction opposée au texte / column: Les éléments sont disposés de haut en bas / column-reverse: Les éléments sont disposés de bas en haut">flex-direction</span></li>
-                                <li><span title="Doit être associé a un nombre (-1 / 0 / 1 etc…) pour créer un ordre">order</span></li>
-                                <li><span title="Nowrap: tous les éléments sont tenus sur une seul ligne / Wrap: les éléments se mettent sur plusieurs lignes au besoin / Wrap-reverse: les éléments se mettent sur plusieurs lignes dans l’ordre inversé">flex-wrap</span></li>
-                                <li><span title="Correspond à flex-direction + flex-wrap">flex-flow</span></li>
-
+                                <li>display: flex; : Permet d’activer Flexbox.</li>
+                                <li>justify-content : flex-start: Les éléments s’alignent au côté gauche du conteneur / flex-end: Les éléments s’alignent au côté droit du conteneur / Center: Les éléments s’alignent au centre du conteneur / Space-between: Les éléments s’affichent avec un espace égal entre eux / Space-around: Les éléments s'affichent avec un espacement égal à l'entour d'eux</li>
+                                <li>align-items : flex-start: Les éléments s'alignent au haut du conteneur / flex-end: Les éléments s'alignent au bas du conteneur / center: Les éléments s'alignent au centre vertical du conteneur / baseline: Les éléments s'alignent à la ligne de base du conteneur / stretch: Les éléments sont étirés pour s'adapter au conteneur</li>
+                                <li>align-self : La même chose que pour align-items sauf que ça agit sur un seul élément.</li>
+                                <li>flex-direction : row: Les éléments sont disposés dans la même direction que le texte / row-reverse: Les éléments sont disposés dans la direction opposée au texte / column: Les éléments sont disposés de haut en bas / column-reverse: Les éléments sont disposés de bas en haut</li>
+                                <li>order : Doit être associé a un nombre (-1 / 0 / 1 etc…) pour créer un ordre</li>
+                                <li>flex-wrap : Nowrap: tous les éléments sont tenus sur une seul ligne / Wrap: les éléments se mettent sur plusieurs lignes au besoin / Wrap-reverse: les éléments se mettent sur plusieurs lignes dans l’ordre inversé</li>
+                                <li>flex-flow : Correspond à flex-direction + flex-wrap</li>
                         </details>
                 </article>
             </div>
         </div>
 
-        <div class="LTR">
+        <div class="LTR1">
             <div>
                 <article>
-                        <details class="det1">
+                        <details class="det1"><!--Mardi-->
                             <summary><i class="fa-solid fa-arrow-right"></i>Mardi matin</summary>
                             <hr>
                             <p>Veille sur les outils "GitHub" et "CodePen"</p>
@@ -184,7 +188,6 @@
                                 <li>C’est un site internet permettant de tester ces codes HTML CSS et JavaScript. La plateforme permet de partager vos lignes de code et projets avec d’autres utilisateurs, d’accéder aux travaux d’autres développeurs.</li>
                                 <li>Pourquoi peut-il être un outil génial ?</li>
                                 <li>Il a un volet pour visualiser si le code fonctionne. Trouver plein d’idée de design, trouver des fonctions css.</li>
-
                         </details>
                 </article>
             </div>
@@ -198,19 +201,357 @@
                             <p>Les balises utilisées sont :</p>
                             <p>(Placez la souris sur une balise pour voir son utilité)</p>
                             <hr>
-                                <li><span title="Élément de bloc qui est utilisé pour regrouper du contenu">&lt;div&gt;</span></li>
-                                <li><span title="Permet d'insérer une image">&lt;Img src="" alt=""&gt;</span></li>
-                                <li><span title="Placer un titre, six niveaux d’importance, le plus important étant <h1>">&lt;h1&gt; &lt;h2&gt; &lt;h3&gt; &lt;h4&gt;</span></li>
-                                <li><span title="Permet d'insérer une ligne horizontale">&lt;hr&gt;</span></li>
-                                <li><span title="Permet d’insérer un paragraphe">&lt;p&gt;</span></li>
-                                <li><span title="Permet d’insérer une liste non-ordonnée (contraire de <ol>)">&lt;ul&gt;</span></li>
-                                <li><span title="Permet d’insérer un élément de liste">&lt;li&gt;</span></li>
-                                <li><span title="Permet d’insérer un lien interne / externe">&lt;a&gt;</span></li>
-                                <li><span title="Permet de nommer et identifier une class par rapport au document css">class=""</span></li>
+                                <li>&lt;div&gt; : Élément de bloc qui est utilisé pour regrouper du contenu.</li>
+                                <li>&lt;Img src="" alt=""&gt; : Permet d'insérer une image.</li>
+                                <li>&lt;h1&gt; &lt;h2&gt; &lt;h3&gt; &lt;h4&gt; : Placer un titre, six niveaux d’importance, le plus important étant &lt;h1&gt;.</li>
+                                <li>&lt;hr&gt; : Permet d'insérer une ligne horizontale.</li>
+                                <li>&lt;p&gt; : Permet d’insérer un paragraphe.</li>
+                                <li>&lt;ul&gt; : Permet d’insérer une liste non-ordonnée (contraire de &lt;ol&gt;).</li>
+                                <li>&lt;li&gt; : Permet d’insérer un élément de liste.</li>
+                                <li>&lt;a&gt; : Permet d’insérer un lien interne / externe.</li>
+                                <li>class="" : Permet de nommer et identifier une class par rapport au document CSS.</li>
+                                <li></li>
                         </details>
                 </article>
             </div>
         </div>
+
+        <div class="LTR1">
+            <div>
+                <article>
+                        <details class="det1"><!--Mercredi-->
+                            <summary><i class="fa-solid fa-arrow-right"></i>Mercredi matin</summary>
+                            <hr>
+                            <p>Veille sur le langage CSS</p>
+                            <hr>
+                                <li>Comment sélectionnes-tu tous les éléments &lt;p&gt; dans une page HTML en CSS ?</li>
+                                <li>p {}</li>
+                                <li>Comment définis-tu la couleur de fond d'un élément en CSS ?</li>
+                                <li>background-color:</li>
+                                <li>Quelle propriété CSS utilises-tu pour définir la taille de la police d'un texte ?</li>
+                                <li>font-size:</li>
+                                <li>Comment centrais-tu un élément horizontalement en CSS ?</li>
+                                <li>text-align: center;</li>
+                                <li>Quelle propriété CSS utilises-tu pour ajouter de l'espacement entre les caractères d'un texte ?</li>
+                                <li>word-spacing:</li>
+                                <li>Comment définis-tu la couleur du texte en CSS ?</li>
+                                <li>color:</li>
+                                <li>Quelle propriété CSS est utilisée pour définir la hauteur d'un élément ?</li>
+                                <li>width</li>
+                                <li>Quelle différence entre le margin et le padding en CSS  ?</li>
+                                <li>margin crée une marge autour de l'élément. padding crée une marge interne à l’élément. Elle sépare le contenu de la bordure.</li>
+                                <li>Comment ajoutes-tu une ombre à un élément en CSS ?</li>
+                                <li>box-shadow:</li>
+                                <li>Comment définis-tu une liste à puces en CSS ?</li>
+                                <li>list-style-type:</li>
+                                <li>Quelle propriété CSS utilises-tu pour aligner le texte à droite ?</li>
+                                <li>text-align: end;</li>
+                                <li>Comment définis-tu un lien qui a été visité en CSS ?</li>
+                                <li>p:visited {}</li>
+                                <li>Comment définis-tu une image comme arrière-plan d'un élément en CSS ?</li>
+                                <li>background-image</li>
+                                <li>Quelle propriété CSS utilises-tu pour donner à un élément une bordure arrondie ?</li>
+                                <li>border-radius</li>
+                                <li>Comment définis-tu une transition en CSS ?</li>
+                                <li>transition / transition-delay / transition-duration / transition-property / transition-timing-function</li>
+                                <li>Quelle propriété CSS est utilisée pour définir la transparence d'un élément ?</li>
+                                <li>opacity:</li>
+                                <li>Comment fais-tu pour aligner du texte verticalement au milieu d'un conteneur en CSS ?</li>
+                                <li>align-items: center; et align-self: center;</li>
+                                <li>Comment définis-tu une animation en CSS ?</li>
+                                <li>animation-name / animation-duration / animation-timing-function / animation-delay / animation-iteration-count / animation-direction / animation-fill-mode / animation-play-state / Ce n'est pas obligatoire de tout remplir.</li>
+                                <li>Comment faire en CSS pour que toute la page soit bleue, peu importe sa taille ?</li>
+                                <li>html {background-color: blue;}</li>
+                                <li>Quelle propriété CSS est utilisée pour définir l'espacement à l'intérieur d'un élément ?</li>
+                                <li>Gap (à utiliser avec display flex)</li>
+                                <li>Comment définis-tu un lien qui est survolé par la souris en CSS ?</li>
+                                <li>a:hover {}</li>
+                                <li>Quelle propriété CSS est utilisée pour spécifier l'ordre de superposition des éléments ?</li>
+                                <li>z-index: 1;  (Affiche en premier l'élément dont le chiffre est plus élevé)</li>
+                                <li>Comment définis-tu un élément comme étant en position fixe en CSS ?</li>
+                                <li>position: fixed;</li>
+                                <li>Quelle propriété CSS utilises-tu pour définir la police d'un texte ?</li>
+                                <li>font-family:</li>
+                                <li>Comment faire en CSS pour qu’un élément change de couleur au passage de la souris ?</li>
+                                <li>p:hover {color: red;}</li>
+                                <li>Quel rendu a display : none; en CSS ?</li>
+                                <li>L’élément devient invisible et ne prend pas de place dans la mise en page.</li>
+                                <li>Pourquoi utiliser des em ou rem plutôt que des px en CSS ?</li>
+                                <li>Ces unités sont basées sur la taille de la police de l’élément parent. em et rem s’adapteront si la taille de la police est changée. N’a pas besoin d’être converti en pixel.</li>
+                                <li>Que sont les medias queries en CSS ?</li>
+                                <li>Fonctionnalité qui permet d'appliquer des styles à un document en fonction des appareils. Les media queries sont utilisées pour créer des sites web et des applications responsives, qui s'adaptent à différentes tailles d'écran et résolutions.</li>
+                                <li>Comment les appliquer ?</li>
+                                <li>@media (all, screen, print, handheld, tv) and (width, height, device-width, device-height, orientation) {}</li>
+                        </details>
+                </article>
+            </div>
+
+            <div>
+                <article>
+                        <details class="det1">
+                            <summary><i class="fa-solid fa-arrow-right"></i>Mercredi après-midi</summary>
+                            <hr>
+                            <p>Début d'utilisation du CSS pour le CV, utilisation de Flexbox</p>
+                            <p>Les éléments utilisés sont :</p>
+                            <p></p>
+                            <hr>
+                                <li>width : Définir la largeur d'un élément.</li>
+                                <li>max-width : Définir la largeur maximale qu'un élément.</li>
+                                <li>height : Définir la hauteur d'un élément.</li>
+                                <li>margin : Définir l'espace entre les bords extérieurs d'un élément.</li>
+                                <li>margin-top : Définir la marge supérieure d'un élément.</li>
+                                <li>margin-bottom : Définir la marge inférieur d'un élément.</li>
+                                <li>margin-left : Définir la marge gauche d'un élément.</li>
+                                <li>margin-right : Définir la marge droite d'un élément.</li>
+                                <li>background-image : Définir une image de fond pour un élément.</li>
+                                <li>background-color : Définir la couleur d'arrière-plan d'un élément.</li>
+                                <li>font-family : Spécifier la police de caractères (ou la famille de polices) à utiliser pour afficher le texte à l'intérieur d'un élément.</li>
+                                <li>font-size : Définir la taille de la police de caractères à utiliser pour afficher le texte à l'intérieur d'un élément.</li>
+                                <li>border : Définir une bordure autour d'un élément.</li>
+                                <li>border-bottom : Définir la bordure ou le trait en bas d'un élément.</li>
+                                <li>color : Définir la couleur du texte à l'intérieur d'un élément</li>
+                                <li>position : Contrôler la position d'un élément.</li>
+                                <li>text-align : Définir l'alignement horizontal du contenu textuel à l'intérieur d'un élément.</li>
+                                <li>object-fit : Spécifier comment une image ou un élément de remplacement doit être ajusté à l'intérieur de son conteneur, en termes de dimensionnement et de découpage.</li>
+                                <li>filter : Permet d'appliquer des effets visuels aux éléments.</li>
+                                <li>top : Définir la distance entre le bord supérieur d'un élément positionné et le bord supérieur de son contenant dans une mise en page web.</li>
+                                <li>left : Définir la distance entre le bord gauche d'un élément positionné et le bord gauche de son contenant dans une mise en page web.</li>
+                                <li>transform : Appliquer des transformations 2D et 3D à un élément, tel qu'un texte, une image, un div, ou tout autre contenu, en modifiant sa position, sa rotation, sa mise à l'échelle et d'autres propriétés visuelles.</li>
+                                <li>text-transform : Contrôler la transformation du texte à l'intérieur d'un élément.</li>
+                                <li>display : Contrôler comment un élément HTML est rendu ou affiché dans le modèle de boîte du navigateur.</li>
+                                <li>flex-wrap : Définir comment les éléments enfants d'un conteneur flexible doivent être distribués ou enroulés sur plusieurs lignes ou colonnes en fonction de l'espace disponible.</li>
+                                <li>flex-direction : Définir la direction dans laquelle les éléments d'un conteneur flexible sont disposés le long de l'axe principal du conteneur.</li>
+                                <li>padding : Définir l'espacement entre le contenu d'un élément HTML et ses bords (marges intérieures).</li>
+                                <li>padding-bottom : Utilisée pour définir la taille de l'espacement entre le contenu d'un élément HTML et son bord inférieur.</li>
+                                <li>list-style-type : Spécifier le type de marqueur ou de puce qui est affiché avant chaque élément d'une liste.</li>
+                                <li>cursor : Définir le type de curseur de la souris qui sera affiché lorsque l'utilisateur survole un élément interactif.</li>
+                                <li>rotate : Position en degrés.</li>
+                                <li>gap : Utilisée dans le contexte des mises en page flexibles et de grille pour spécifier l'espacement entre les éléments d'un conteneur.</li>
+                                <li>align-items : aligner verticalement les éléments enfants à l'intérieur d'un conteneur flexible ou d'un conteneur en grille le long de l'axe transversal du conteneur.</li>
+                        </details>
+                </article>
+            </div>
+        </div>
+
+        <div class="LTR1">
+            <div>
+                <article>
+                        <details class="det1"><!--Jeudi-->
+                            <summary><i class="fa-solid fa-arrow-right"></i>Jeudi matin</summary>
+                            <hr>
+                            <p>Modification de la feuille de style du cv et remplacement des éléments suivant</p>
+                            <p>&lt;ul&gt; et &lt;li&gt; par &lt;p&gt; et &lt;a&gt;</p>
+                            <hr>
+                                <li>&lt;ul&gt; : Définir une liste désordonné (le contraire étant &lt;ol&gt;).</li>
+                                <li>&lt;li&gt; : Définir un élément d'une liste.</li>
+                                <li>&lt;p&gt; : Définir un paragraphe.</li>
+                                <li>&lt;a&gt; : Définir un lien interne ou externe.</li>
+                            <hr>
+                            <p>Début d'un deuxième jeu pour apprendre à utiliser Flexbox en CSS</p>
+                            <p>Les éléments utilisés sont :</p>
+                            <hr>
+                                <li>flex-direction : row: Les éléments sont disposés dans la même direction que le texte / row-reverse: Les éléments sont disposés dans la direction opposée au texte / column: Les éléments sont disposés de haut en bas / column-reverse: Les éléments sont disposés de bas en haut</li>
+                                <li>Justify-content : flex-start: Les éléments s’alignent au côté gauche du conteneur / flex-end: Les éléments s’alignent au côté droit du conteneur / Center: Les éléments s’alignent au centre du conteneur / Space-between: Les éléments s’affichent avec un espace égal entre eux / Space-around: Les éléments s'affichent avec un espacement égal à l'entour d'eux</li>
+                                <li>align-items : flex-start: Les éléments s'alignent au haut du conteneur / flex-end: Les éléments s'alignent au bas du conteneur / center: Les éléments s'alignent au centre vertical du conteneur / baseline: Les éléments s'alignent à la ligne de base du conteneur / stretch: Les éléments sont étirés pour s'adapter au conteneur</li>
+                                <li>flex-grow : Spécifie la quantité d'espace restant dans un conteneur flexible qui doit être attribuée à l'élément. Nombre compris entre 0 et 1.</li>
+                                <li>flex-shrink : Spécifie la quantité d'espace restant dans un conteneur flexible qui doit être retirée de l'élément. Nombre compris entre 0 et 1.</li>
+                                <li>flex-basis : Spécifie la taille initiale d'un élément flexible. Peut être une longueur, un pourcentage, ou la valeur auto.</li>
+                                <li>order : Définir un ordre. -1 / 0 / 1 etc... doit être utilisé.</li>
+                                <li>flex-wrap : Nowrap: tous les éléments sont tenus sur une seul ligne / Wrap: les éléments se mettent sur plusieurs lignes au besoin / Wrap-reverse: les éléments se mettent sur plusieurs lignes dans l’ordre inversé</li>
+                                <li>align-content : flex-start: les lignes sont alignées au début de l'axe transversal / flex-end: les lignes sont alignées à la fin de l'axe transversal / center: les lignes sont centrées le long de l'axe transversal / space-between: les lignes sont réparties de manière uniforme le long de l'axe transversal, avec un espace égal entre elles / space-around: les lignes sont réparties de manière uniforme le long de l'axe transversal, avec un espace égal autour d'elles / stretch (valeur par défaut): les lignes s'étirent pour occuper tout l'espace disponible le long de l'axe transversal</li>
+                                <li>flex-shorthand : Propriété raccourcie qui permet de définir les trois propriétés flexibles flex-grow, flex-shrink et flex-basis en une seule fois. Nombres compris entre 0 et 1, ou la valeur auto.</li>
+                        </details>
+                </article>
+            </div>
+
+            <div>
+                <article>
+                        <details class="det1">
+                            <summary><i class="fa-solid fa-arrow-right"></i>Jeudi après-midi</summary>
+                            <hr>
+                            <p>Veille sur les éléments de la balise head + suite du deuxième jeu pour apprendre à utiliser Flexbox en CSS</p>
+                            <p>Les balises utilisées sont :</p>
+                            <hr>
+                                <li>&lt;title&gt; : Modifie le titre de l’onglet.</li>
+                                <li>&lt;meta charset="UTF-8"&gt; : Type de caractère utilisé pour la page.</li>
+                                <li>&lt;meta name="keywords" content=""&gt; : Définir des mots-clés pour les moteurs de recherche.</li>
+                                <li>&lt;meta name="description" content=""&gt; : Définir une description de la page - Apparaît dans la recherche Google.</li>
+                                <li>&lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt; : Définir la fenêtre d'affichage pour que le site s'affiche bien sur tous les appareils.</li>
+                                <li>&lt;link rel="stylesheet" href="mystyle.css"&gt; : Relier un fichier CSS à un fichier HTML.</li>
+                                <li>&lt;script src="script.js" defer&gt;&lt;/script&gt; : Relier un fichier JavaScript à un fichier HTML. “defer” permet de lancer le script à la fin du chargement de la page (sinon on met le script à la fin du body).</li>
+                                <li>&lt;noscript&gt; : Fournir une alternative dans le cas où JavaScript ne serait pas supporté par un navigateur.</li>
+                                <li>&lt;canonical&gt; : Définir l’URL primaire du site.</li>
+                                <li>&lt;meta name="language" content="fr"&gt; : Définir la langue utilisé pour le site.</li>
+                                <li>&lt;meta name="copyright" content="Copyright (c) 2023, Example.com"&gt; : Définir les informations de copyright pour le fichier HTML.</li>
+                                <li>&lt;link rel="icon" href="favicon.ico"&gt; : Petite icône dans la barre d’adresse du navigateur ou dans les favoris.</li>
+                                <li>&lt;link rel="resource" href="image.jpg"&gt; : Fichier de ressources (image, son, vidéo …)</li>
+                                <li>Protocole OpenGraph data : titre, description et image quand tu envoies le lien du site par message.</li>
+                                <li>&lt;meta property="og:title" content=""&gt;</li>
+                                <li>&lt;meta property="og:type" content=""&gt;</li>
+                                <li>&lt;meta property="og:url" content=""&gt;</li>
+                                <li>&lt;meta property="og:description" content=""&gt;</li>
+                                <li>&lt;meta property="og:image" content=""&gt;</li>
+                        </details>
+                </article>
+            </div>
+        </div>
+
+        <div class="LTR2">
+            <article>
+                    <details class="det2"><!--Vendredi-->
+                        <summary><i class="fa-solid fa-arrow-right"></i>Vendredi matin</summary>
+                        <hr>
+                        <p>Ajout de toutes les balises meta et link nécessaires au code HTML du CV</p>
+                        <p>Veille sur les extensions de Visual Studio Code</p>
+                        <p>Les extensions sont :</p>
+                        <hr>
+                            <li>HTML Boilerplate : Permet de faire apparaître les balises et éléments de base au début du code HTML.</li>
+                            <li>HTML Class Suggestions : Propose des noms de class CSS déjà existante pour les disposées plus rapidement dans le code HTML.</li>
+                            <li>HTML to JSX : Transforme le code HTML sélectionné en code JSX.</li>
+                            <li>HTML/CSS/JavaScript Snippets : Permet de coder plus rapidement, termine la balise/élément commencé.</li>
+                            <li>VS HTML to CSS : En sélectionnant le code HTML, cette extension retient les noms de class et d'ID et permet de les coller dans la feuille de style.</li>
+                            <li>HTML to JavaScript string : Permet de transformer le code HTML en code JavaScript.</li>
+                            <li>Blackbox AI Code Generation, Code Chat, Code Search : IA pour aider à coder.</li>
+                            <li>HTML Play : Permet de visualiser sa page web sans avoir à changer de fenêtre.</li>
+                            <li>Auto Rename Tag : En modifiant la balise de début, la balise de fin se modifie également, et inversement.</li>
+                            <li>CodeGeeX: AI Code AutoComplete, Chat, Auto Comment : IA pour aider à coder (fonctionne en anglais)</li>
+                    </details>
+            </article>
+        </div>
+
+        <div class="h4">
+            <h4>Deuxième semaine</h4>
+        </div>
+        <div class="LTR1">
+            <div>
+                <article>
+                        <details class="det1"><!--Lundi-->
+                            <summary><i class="fa-solid fa-arrow-right"></i>Lundi matin</summary>
+                            <hr>
+                            <p>Modification du HTML et CSS du CV</p>
+                            <p>Utilisation de &lt;form&gt;, &lt;summary&gt;, &lt;details&gt; et &lt;img&gt;</p>
+                            <hr>
+                                <li>&lt;form&gt; : Permet de créer un formulaire interactif.</li>
+                                <li>&lt;summary&gt; et &lt;details&gt; : Permet de créer des éléments de déroulement, aussi appelés éléments de résumé ou accordéons.</li>
+                                <li>&lt;img&gt; : Permet d'insérer une image.</li>
+
+                            </details>
+                </article>
+            </div>
+
+            <div>
+                <article>
+                        <details class="det1">
+                            <summary><i class="fa-solid fa-arrow-right"></i>Lundi après-midi</summary>
+                            <hr>
+                            <p>Exercice pour disposer des images sur une page en utilisant Flexbox en CSS</p>
+                            <hr>
+                        </details>
+                </article>
+            </div>
+        </div>
+
+        <div class="LTR1">
+            <div>
+                <article>
+                        <details class="det1"><!--Mardi-->
+                            <summary><i class="fa-solid fa-arrow-right"></i>Mardi matin</summary>
+                            <hr>
+                            <p>Modification du cv en html et css, positionnement de petit icones pour les summary et contacts</p>
+                            <hr>
+                            </details>
+                </article>
+            </div>
+
+            <div>
+                <article>
+                        <details class="det1">
+                            <summary><i class="fa-solid fa-arrow-right"></i>Mardi après-midi</summary>
+                            <hr>
+                            <p>Modification du cv en html et css, application des couleurs dans le code CSS</p>
+                            <hr>
+                        </details>
+                </article>
+            </div>
+        </div>
+
+        <div class="LTR1">
+            <div>
+                <article>
+                        <details class="det1"><!--Mercredi-->
+                            <summary><i class="fa-solid fa-arrow-right"></i>Mercredi matin</summary>
+                            <hr>
+                            <p>Création de petite animation pour les icones situé à coté des summary.</p>
+                            <p>Éléments utilisés</p>
+                            <hr>
+                                <li>Code pour positionner les icônes par rapport à la marge droite et à leur rotation.</li>
+                                <img src="assets/images/anim1.PNG" alt="Code pour positionner les icones par rapport à la marge droite et à sa rotation">
+                                <li>Code pour réaliser l'animation de rotation de l'icône et la transition du texte.</li>
+                                <img src="assets/images/anim2.PNG" alt="Code pour faire l'animation de rotation de l'icone et de la transition du texte">
+                                <li>Code pour réaliser l'animation de rotation et la transition inverse pour le déroulement.</li>
+                                <img src="assets/images/anim3.PNG" alt="Code pour faire l'animation de rotation et de transition inverse pour le déroulement">
+
+                            </details>
+                </article>
+            </div>
+
+            <div>
+                <article>
+                        <details class="det1">
+                            <summary><i class="fa-solid fa-arrow-right"></i>Mercredi après-midi</summary>
+                            <hr>
+                            <p>Modification des couleurs du CV (dégradés)</p>
+                            <hr>
+                                <li>background-image: linear-gradient(to left, #0a0a44, #11849c, #0a0a44, #11849c, #0a0a44);</li>
+                                <li>Les couleurs formuler "#000000" sont au format "Hexa"</li>
+                        </details>
+                </article>
+            </div>
+        </div>
+
+        <div class="LTR1">
+            <div>
+                <article>
+                        <details class="det1"><!--Jeudi-->
+                            <summary><i class="fa-solid fa-arrow-right"></i>Jeudi matin</summary>
+                            <hr>
+                            <p>Modification générale + couleurs pour l'apparence du CV.</p>
+                            <hr>
+                        </details>
+                </article>
+            </div>
+
+            <div>
+                <article>
+                        <details class="det1">
+                            <summary><i class="fa-solid fa-arrow-right"></i>Jeudi après-midi</summary>
+                            <hr>
+                            <p>Création de la version responsive du CV en CSS (adaptation du CV pour les téléphones et les tablettes en général).</p>
+                            <hr>
+                                <li>@media screen and (max-width:48em;) {} : Cette ligne correspond au type de média, ici les écrans de taille 48em ou 768px. Cette taille correspond généralement à celle d'un téléphone.</li>
+                                <li>@media screen and (max-width:60em;) {} : Cette ligne correspond aux écrans de taille 60em ou 960px. Cette taille correspond généralement à celle d'une tablette.</li>
+                        </details>
+                </article>
+            </div>
+        </div>
+
+        <div class="LTR2">
+            <article>
+                    <details class="det2"><!--Vendredi-->
+                        <summary><i class="fa-solid fa-arrow-right"></i>Vendredi matin</summary>
+                        <hr>
+                        <p>Finition et correction de certains éléments de la version responsive du CV.</p>
+                        <p>Résumé des deux semaines et de ce qui a été appris et vu.</p>
+                        <p>Prise d'informations pour le rapport de stage</p>
+                        <hr>
+                    </details>
+            </article>
+        </div>
+
+        <!--Conclusion du stage-->
+        <a href="#nav"><h3 id="conclusion">Conclusion</h3></a>
+
+
 
 
     </main>
