@@ -100,7 +100,7 @@ h3 {
     min-height: 330px;
 }
 
-.P1 {
+.P1, .P2 {
     width: 500px;
     
 }
@@ -196,3 +196,33 @@ h4 {
     margin-top: 20px;
 }
 
+/* conclusion */
+.CR {
+    height: 250px;
+
+}
+
+.annexes {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.renard2 {
+    text-align: center;
+    width: 25%;
+}
+
+.carte2 {
+    text-align: center;
+    width: 33%;
+}
+
+.site {
+    font-family: 'Mooli', sans-serif;
+    margin-top: 100px;
+    font-size: 20px;
+    text-align: center;
+
+}

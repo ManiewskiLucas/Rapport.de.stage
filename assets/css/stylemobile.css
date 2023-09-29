@@ -1,0 +1,77 @@
+@media screen and (max-width: 48em) {
+
+    body {
+        max-width: 31.25em;
+    }
+
+    nav {
+        display: none;
+    }
+
+    a:has(h3) {
+        pointer-events: none;
+        width: 23em;
+    }
+
+    header h1, header h2 {
+        width: 8em;
+    }
+
+    main {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    main article {
+        width: 23em;
+    }
+
+    .renard {
+        width: 10em;
+        margin: 0px;
+    }
+
+    .carte {
+        width: 20em;
+    }
+
+    .ligne {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .P1 {
+        width: 23em;
+    }
+
+    h4 {
+        width: 15em;
+    }
+
+    .det1, .det2 {
+        width: 45em;
+    }
+
+    .LTR1, .LTR2 {
+        width: 47em;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .CR {
+        height: 750px;
+    }
+
+    .annexes {
+        width: 23em;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .carte2 {
+        width: 20em;
+    }
+
+}
