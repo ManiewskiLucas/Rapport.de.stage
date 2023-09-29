@@ -1,4 +1,4 @@
-@media screen and (max-width: 48em) {
+@media screen and (max-width: 31.25em) {
 
     body {
         max-width: 31.25em;
@@ -51,11 +51,11 @@
     }
 
     .det1, .det2 {
-        width: 45em;
+        width: 28em;
     }
 
     .LTR1, .LTR2 {
-        width: 47em;
+        width: 30em;
         display: flex;
         flex-direction: column;
     }
