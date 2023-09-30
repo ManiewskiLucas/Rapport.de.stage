@@ -1,8 +1,4 @@
-@media screen and (max-width: 31.25em) {
-
-    body {
-        max-width: 31.25em;
-    }
+@media screen and (max-width: 48em) {
 
     nav {
         display: none;
