@@ -1,5 +1,5 @@
 body {
-    max-width: 90%;
+    max-width: 95%;
     margin: auto;
     background: rgb(255,255,255);
     background: linear-gradient(90deg, rgba(255,255,255,0.76234243697479) 0%, rgb(189, 67, 67) 35%, rgba(18,182,221,1) 65%, rgba(255,255,255,0.9023984593837535) 100%);
@@ -174,11 +174,11 @@ h4 {
 }
 
 .det1 {
-    width: 1350px;
+    width: 1450px;
 }
 
 .LTR1 {
-    width: 90%;
+    width: 95%;
     display: flex;
     justify-content: center;
     text-align: center;
