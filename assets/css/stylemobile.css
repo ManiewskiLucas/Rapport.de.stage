@@ -2,14 +2,13 @@
 
     body {
         width: 100%;
-        margin: auto;
     }
 
     nav {
         display: none;
     }
 
-    a:(h3) {
+    a h3 {
         cursor: default;
     }
 
@@ -19,18 +18,28 @@
         width: 8em;
     }
 
+    article {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
     .renard {
         width: 10em;
     }
 
     .carte {
         width: 15em;
+
+    }
+
+    img {
+        margin: auto;
+        margin-bottom: 1em;
     }
 
     .LTR1 {
         max-width: 100%;
-        display: flex;
-        justify-content: center;
     }
 
     .det1 {
