@@ -1,0 +1,44 @@
+@media screen and (max-width: 48em) {
+
+    body {
+        width: 100%;
+        margin: auto;
+    }
+
+    nav {
+        display: none;
+    }
+
+    a:(h3) {
+        cursor: default;
+    }
+
+
+
+    header h1, header h2 {
+        width: 8em;
+    }
+
+    .renard {
+        width: 10em;
+    }
+
+    .carte {
+        width: 15em;
+    }
+
+    .LTR1 {
+        max-width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .det1 {
+        width: 100%;
+    }
+
+    .CR {
+        height: 28em;
+    }
+    
+}
