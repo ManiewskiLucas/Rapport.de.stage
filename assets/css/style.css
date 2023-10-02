@@ -177,6 +177,13 @@ h4 {
     width: 1450px;
 }
 
+iframe {
+    border: 5px solid black;
+    width: 600px;
+    height: 400px;
+}
+
+
 .LTR1 {
     width: 95%;
     display: flex;

@@ -8,6 +8,10 @@
         display: none;
     }
 
+    iframe {
+        margin: auto;
+    }
+
     a h3 {
         cursor: default;
     }
