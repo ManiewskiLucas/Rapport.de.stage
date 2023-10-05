@@ -102,8 +102,6 @@ h3 {
 .ligne {
     display: flex;
     justify-content: space-around;
-    max-height: 600px;
-    min-height: 330px;
 }
 
 .P1 {
