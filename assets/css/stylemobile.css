@@ -16,6 +16,10 @@
         cursor: default;
     }
 
+    .introduction {
+        height: 60em;
+    }
+
 
 
     header h1, header h2 {
@@ -51,7 +55,7 @@
     }
 
     .CR {
-        height: 28em;
+        height: 35em;
     }
     
 }

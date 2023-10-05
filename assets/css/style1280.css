@@ -20,6 +20,10 @@
         width: 8em;
     }
 
+    .introduction {
+        height: 600px;
+    }
+
     .LTR1 {
         width: 100%;
     }

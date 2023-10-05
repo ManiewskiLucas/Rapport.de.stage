@@ -40,6 +40,11 @@ a {
     align-items: center;
 }
 
+.introduction {
+    height: 500px;
+    width: 95%;
+}
+
 header h1 {
     text-align: center;
     border-bottom: 2px black solid;
@@ -101,8 +106,8 @@ h3 {
     min-height: 330px;
 }
 
-.P1, .P2 {
-    width: 500px;
+.P1 {
+    width: 95%;
     
 }
 
