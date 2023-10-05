@@ -1,0 +1,29 @@
+@media screen and (max-width: 23.44em) {
+
+    body {
+        width: 100%;
+    }
+
+    iframe {
+        width: 100%;
+    }
+
+    .introduction {
+        height: 105em;
+    }
+
+    .CR {
+        height: 60em;
+    }
+
+    .annexes {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .renard {
+        margin: auto;
+        margin-bottom: 1em;
+    }
+
+}
