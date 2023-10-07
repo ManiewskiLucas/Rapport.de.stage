@@ -1,19 +1,19 @@
-@media screen and (max-width: 26.563em) {
+@media screen and (max-width: 22.5em) {
 
     body {
-        width: 100%;
+        width: 96%;
     }
     
     .introduction {
-        height: 92em;
+        height: 105em;
     }
 
     .C {
-        height: 56em;
+        height: 62em;
     }
 
     .R {
-        height: 40em;
+        height: 47em;
     }
 
     .annexes {
