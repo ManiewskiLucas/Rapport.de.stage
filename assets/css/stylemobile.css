@@ -30,6 +30,8 @@
 
     .renard {
         width: 10em;
+        margin: auto;
+        margin-top: 1em;
     }
 
     .carte {
@@ -50,7 +52,7 @@
         width: 95%;
     }
 
-    .CR {
+    .C, .R {
         height: 35em;
     }
     
