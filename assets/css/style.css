@@ -41,7 +41,7 @@ a {
 }
 
 .introduction {
-    height: 500px;
+    height: 350px;
     width: 95%;
 }
 
@@ -196,8 +196,12 @@ iframe {
 }
 
 /* conclusion */
-.C, .R {
-    height: 300px;
+.C{
+    height: 320px;
+}
+
+.R {
+    height: 250px;
 }
 
 .annexes {

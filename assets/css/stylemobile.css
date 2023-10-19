@@ -13,7 +13,7 @@
     }
 
     .introduction {
-        min-height: 60em;
+        min-height: 40em;
     }
 
 
@@ -39,6 +39,14 @@
 
     }
 
+    .carte2 {
+        margin-top: 2em;
+    }
+
+    .renard2 {
+        width: 7em;
+    }
+
     img {
         margin: auto;
         margin-bottom: 1em;
@@ -52,8 +60,12 @@
         width: 95%;
     }
 
-    .C, .R {
-        height: 35em;
+    .C {
+        height: 38em;
+    }
+
+    .R {
+        height: 30em;
     }
     
 }
