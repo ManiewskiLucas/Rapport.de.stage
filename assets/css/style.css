@@ -177,7 +177,7 @@ h4 {
 }
 
 .det1 {
-    width: 1450px;
+    width: 100%;
 }
 
 iframe {
@@ -188,7 +188,7 @@ iframe {
 
 
 .LTR1 {
-    width: 95%;
+    width: 100%;
     display: flex;
     justify-content: center;
     text-align: center;
