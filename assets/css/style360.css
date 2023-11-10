@@ -1,19 +1,19 @@
-@media screen and (max-width: 22.5em) {
+@media screen and (min-width: 0em) and (max-width: 22.5em) {
 
     body {
-        width: 96%;
+        width: 100%;
     }
     
     .introduction {
-        height: 70em;
+        height: 90em;
     }
 
     .C {
-        height: 62em;
+        height: 85em;
     }
 
     .R {
-        height: 47em;
+        height: 60em;
     }
 
     .annexes {
@@ -24,6 +24,14 @@
     .renard {
         margin: auto;
         margin-bottom: 1em;
+    }
+
+    nav {
+        display: none;
+    }
+
+    a h3 {
+        cursor: default;
     }
 
 }
