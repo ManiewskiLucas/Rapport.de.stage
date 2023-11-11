@@ -1,4 +1,4 @@
-@media screen and (max-width: 70em) {
+@media screen and (max-width: 48em) {
 
     body {
         width: 100%;
@@ -13,7 +13,7 @@
     }
 
     .introduction {
-        min-height: 40em;
+        min-height: 25vw;
     }
 
 
@@ -29,22 +29,23 @@
     }
 
     .renard {
-        width: 10em;
+        width: 50vw;
         margin: auto;
-        margin-top: 1em;
+        margin-top: 1vw;
     }
 
     .carte {
-        width: 15em;
+        width: 60vw;
 
     }
 
     .carte2 {
-        margin-top: 2em;
+        margin-top: 2vw;
+        width: 30vw;
     }
 
     .renard2 {
-        width: 7em;
+        width: 25vw;
     }
 
     img {
@@ -61,11 +62,11 @@
     }
 
     .C {
-        height: 38em;
+        height: 26vw;
     }
 
     .R {
-        height: 30em;
+        height: 20vw;
     }
     
 }
